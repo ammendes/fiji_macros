@@ -1,6 +1,13 @@
 # fiji_macros
 
-A repository of Fiji macros developed during my PhD.
+A compilation of Fiji macros developed during my PhD.
+
+## How to use the macros
+
+1. Download the file.
+2. Open Fiji.
+3. Go to "Plugins -> Macros -> Run" to run the macros or "Plugins -> Macros -> Edit" to edit them.
+4. Select the file to use.
 
 ## List of macros (and what they do):
 
