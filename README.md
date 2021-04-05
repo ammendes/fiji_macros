@@ -11,7 +11,7 @@ The code in each macro contains comments to help the user modulate different par
 3. Go to "Plugins -> Macros -> Run" to run the macros or "Plugins -> Macros -> Edit" to edit them.
 4. Select the file and click "Open".
 
-## List of macros (and what they do):
+## * List of macros (and what they do):
 
 ### -> brownian_contained.ijm
 Creates an image stack (default is 16-bit, 200x200, 1000 slices) and paints colored particles that move randomly along the timelapse.
