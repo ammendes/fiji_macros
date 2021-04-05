@@ -13,7 +13,7 @@ The code in each macro contains comments to help the user modulate different par
 
 ## List of macros (and what they do):
 
-### 'brownian_contained.ijm'
+### `brownian_contained.ijm`
 Creates an image stack (default is 16-bit, 200x200, 1000 slices) and paints colored particles that move randomly along the timelapse.
 
 By default, the particles are contained within the image (i.e., they bump into the walls instead of crossing them).
