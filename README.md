@@ -20,10 +20,11 @@ By default, the particles are contained within the image (i.e., they bump into t
 
 Several parameters can be changed within the code, such as the size of the images and the number of slices, the number of particles, and the maximum amplitude of each step.
 
+Note: The particles do not bump into each other (yet...).
 
 #### `pearson.ijm`
 Calculates the Pearson correlation coefficient between two images.
 
 The images will be converted to a single-channel format (default is "32-bit" but this can be changed to 8-bit or 16-bit).
 
-Note: Either rename your images to "1" and "2" before running the macro, or change the "1" and "2" names within the code (see macro comments).
+Note: Either rename your images to "1" and "2" before running the macro, or change the "1" and "2" strings within the code to the names of your images (see macro comments).
