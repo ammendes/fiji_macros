@@ -24,7 +24,7 @@ Note: The particles do not bump into each other (yet...).
 
 #### `pearson.ijm`
 Calculates the Pearson correlation coefficient between two images based on the following formula:
-<img src="https://latex.codecogs.com/svg.latex?r_x_y=\frac{\sum_{i=1}^{n}(x_i-\bar&space;x)(y_i-\bar&space;y)}{\sqrt{\sum_{i=1}^{n}(x_i-\bar&space;x)^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar&space;y)^2}}" title="r_x_y=\frac{\sum_{i=1}^{n}(x_i-\bar x)(y_i-\bar y)}{\sqrt{\sum_{i=1}^{n}(x_i-\bar x)^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar y)^2}}" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=r_x_y=\frac{\sum_{i=1}^{n}(x_i-\bar&space;x)(y_i-\bar&space;y)}{\sqrt{\sum_{i=1}^{n}(x_i-\bar&space;x)^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar&space;y)^2}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?r_x_y=\frac{\sum_{i=1}^{n}(x_i-\bar&space;x)(y_i-\bar&space;y)}{\sqrt{\sum_{i=1}^{n}(x_i-\bar&space;x)^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar&space;y)^2}}" title="r_x_y=\frac{\sum_{i=1}^{n}(x_i-\bar x)(y_i-\bar y)}{\sqrt{\sum_{i=1}^{n}(x_i-\bar x)^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar y)^2}}" /></a>
 
 The images will be converted to a single-channel format (default is "32-bit" but this can be changed to 8-bit or 16-bit).
 
