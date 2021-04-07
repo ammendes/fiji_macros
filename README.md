@@ -27,7 +27,6 @@ Calculates the Pearson correlation coefficient between two images based on the f
 
 <img src="https://latex.codecogs.com/svg.latex?r_x_y=\frac{\sum_{i=1}^{n}(x_i-\bar&space;x)(y_i-\bar&space;y)}{\sqrt{\sum_{i=1}^{n}(x_i-\bar&space;x)^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar&space;y)^2}}" title="r_x_y=\frac{\sum_{i=1}^{n}(x_i-\bar x)(y_i-\bar y)}{\sqrt{\sum_{i=1}^{n}(x_i-\bar x)^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar y)^2}}" />
 
-Notes: 
 
 The images will be converted to a single-channel format (default is 32-bit but it can be changed to 8-bit or 16-bit; see macro comments).
 
