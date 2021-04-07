@@ -24,8 +24,7 @@ Note: The particles do not bump into each other (yet...).
 
 #### `pearson.ijm`
 Calculates the Pearson correlation coefficient between two images based on the following formula:
-<a href="https://www.codecogs.com/eqnedit.php?latex=r_x_y=\frac{\sum_{i=1}^{n}(x_i-\bar&space;x)(y_i-\bar&space;y)}{\sqrt{\sum_{i=1}^{n}(x_i-\bar&space;x)^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar&space;y)^2}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?r_x_y=\frac{\sum_{i=1}^{n}(x_i-\bar&space;x)(y_i-\bar&space;y)}{\sqrt{\sum_{i=1}^{n}(x_i-\bar&space;x)^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar&space;y)^2}}" title="r_x_y=\frac{\sum_{i=1}^{n}(x_i-\bar x)(y_i-\bar y)}{\sqrt{\sum_{i=1}^{n}(x_i-\bar x)^2}\sqrt{\sum_{i=1}^{n}(y_i-\bar y)^2}}" /></a>
-
+https://latex.codecogs.com/gif.latex?r_x_y%3D%5Cfrac%7B%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%28x_i-%5Cbar%20x%29%28y_i-
 The images will be converted to a single-channel format (default is "32-bit" but this can be changed to 8-bit or 16-bit).
 
 Note: Either rename your images to "1" and "2" before running the macro, or change the "1" and "2" strings within the code to the names of your images (see macro comments).
