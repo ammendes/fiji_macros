@@ -1,15 +1,15 @@
 # fiji_macros
 
-A compilation of Fiji macros developed during my PhD.
+A compilation of Fiji macros developed by me.
 
-The code in each macro contains comments to help the user modulate different parameters.
 
 ## How to use the macros
 
-1. Download the file.
-2. Open Fiji.
-3. Go to "Plugins -> Macros -> Run" to run the macros or "Plugins -> Macros -> Edit" to edit them.
-4. Select the file and click "Open".
+1. Read each macro's notes to ensure everything is properly set up in your machine.
+2. Download the file.
+3. Open Fiji.
+4. Go to "Plugins -> Macros -> Run" to run the macros or "Plugins -> Macros -> Edit" to edit/view them.
+5. Select the file and click "Open".
 
 ## List of macros (and what they do):
 
@@ -31,3 +31,12 @@ Calculates the Pearson correlation coefficient between two images based on the f
 The images will be converted to a single-channel format (default is 32-bit but it can be changed to 8-bit or 16-bit; see macro comments).
 
 Either rename your images to "1" and "2" before running the macro, or change the "1" and "2" strings within the code to the names of your images (see macro comments).
+
+#### 'stack2sequence.ijm'
+Turns batches of image stacks into image sequences.
+
+#### 'getStarDistROIs.ijm'
+Runs StarDist2D on each file of an image sequence. Read notes carefully.
+
+#### 'sequences2stacks.ijm'
+Turns image sequences into image stacks.
