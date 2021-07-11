@@ -15,7 +15,7 @@ A compilation of Fiji macros developed by me.
 
 #### `brownian_contained.ijm`
 Creates an image stack (default is 16-bit, 200x200, 1000 slices) and paints colored particles that move randomly along the timelapse.
-
+&nbsp;
 By default, the particles are contained within the image (i.e., they bump into the walls instead of crossing them).
 
 Several parameters can be changed within the code, such as the size of the images and the number of slices, the number of particles, and the maximum amplitude of each step.
