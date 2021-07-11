@@ -22,6 +22,7 @@ Several parameters can be changed within the code, such as the size of the image
 
 Note: The particles do not bump into each other (yet...).
 
+
 #### `pearson.ijm`
 Calculates the Pearson correlation coefficient between two images based on the following formula:
 
@@ -32,11 +33,14 @@ The images will be converted to a single-channel format (default is 32-bit but i
 
 Either rename your images to "1" and "2" before running the macro, or change the "1" and "2" strings within the code to the names of your images (see macro comments).
 
-#### 'stack2sequence.ijm'
+
+#### `stack2sequence.ijm`
 Turns batches of image stacks into image sequences.
 
-#### 'getStarDistROIs.ijm'
+
+#### `getStarDistROIs.ijm`
 Runs StarDist2D on each file of an image sequence. Read notes carefully.
 
-#### 'sequences2stacks.ijm'
+
+#### `sequences2stacks.ijm`
 Turns image sequences into image stacks.
