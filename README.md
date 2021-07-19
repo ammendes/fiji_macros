@@ -44,3 +44,7 @@ Runs StarDist2D on each file of an image sequence. Read notes carefully.
 
 #### `sequences2stacks.ijm`
 Turns image sequences into image stacks.
+
+
+#### `roiTracker.ijm`
+Semi-automatic tracking of a single particle in each frame of an image stack.
